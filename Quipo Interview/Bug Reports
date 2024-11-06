@@ -1,0 +1,82 @@
+Bug 1: Login Button Unresponsive After Incorrect Credentials
+Title: Login button becomes unresponsive after entering incorrect credentials
+
+Severity: Major
+
+Priority: High
+
+Environment:
+
+Browser: Chrome 116.0.5845
+OS: Windows 10
+URL: http://www.automationpractice.pl/index.php
+Steps to Reproduce:
+
+Navigate to the website's homepage.
+Click on the "Sign in" button to go to the login page.
+Enter an incorrect email (e.g., invaliduser@example.com) and password (e.g., WrongPassword123).
+Click the "Sign in" button to attempt login.
+Expected Result: A message indicating invalid credentials should appear, allowing the user to retry logging in.
+
+Actual Result: The "Sign in" button becomes unresponsive, and no feedback or error message appears, preventing further login attempts until the page is refreshed.
+
+Attachments:
+
+Screenshot of the login page after clicking "Sign in" with no response.
+Console logs showing any errors triggered by the login attempt.
+
+-----------------------------------------------------------------------------
+
+Bug 2: Search Results Page Pagination Not Functioning Properly
+Title: Pagination does not work on the search results page
+
+Severity: Moderate
+
+Priority: Medium
+
+Environment:
+
+Browser: Firefox 118.0
+OS: macOS 12.3
+URL: http://www.automationpractice.pl/index.php
+Steps to Reproduce:
+
+Navigate to the homepage.
+Enter "dress" in the search bar and click the search icon.
+On the search results page, scroll down and attempt to click on the second page of results.
+Expected Result: The second page of search results should load, displaying a new set of products.
+
+Actual Result: The page does not load new products, and clicking the pagination controls has no effect. The user remains on the first page of search results.
+
+Attachments:
+
+Screen recording of the pagination controls not responding.
+Network logs showing any related errors or lack of requests when the pagination button is clicked.
+
+------------------------------------------------------------------------------------
+
+Bug 3: "Add to Cart" Modal Display Issue on Mobile Devices
+Title: "Add to Cart" modal improperly displayed on mobile devices
+
+Severity: Minor
+
+Priority: Low
+
+Environment:
+
+Browser: Safari (iOS 15)
+Device: iPhone 12
+URL: http://www.automationpractice.pl/index.php
+Steps to Reproduce:
+
+Open the website on a mobile device.
+Search for a product (e.g., "shirt") and view the search results.
+Click "Add to Cart" for any product.
+Expected Result: A confirmation modal should appear, displaying a message that the product was successfully added to the cart, with a visible "Proceed to Checkout" button.
+
+Actual Result: The modal appears but is partially cut off, making the "Proceed to Checkout" button and product information difficult or impossible to see.
+
+Attachments:
+
+Screenshot of the modal on an iPhone 12 showing cut-off content.
+Screenshot of the correct modal appearance on desktop for reference.

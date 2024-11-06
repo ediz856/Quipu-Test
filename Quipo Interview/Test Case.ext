@@ -1,0 +1,62 @@
+Test Case 1: Search with Valid Keywords
+Objective: Verify that the search returns relevant results for valid keywords.
+Preconditions: User is on the homepage.
+Steps:
+Enter a valid product name or category (e.g., "dress") in the search bar.
+Click on the search icon or press Enter.
+Expected Result: The search results page displays items related to the keyword entered.
+Test Case 2: Search with Invalid Keywords
+Objective: Verify that no results are displayed for invalid or random keywords.
+Preconditions: User is on the homepage.
+Steps:
+Enter an invalid or random keyword (e.g., "xyz123") in the search bar.
+Click on the search icon or press Enter.
+Expected Result: The search results page displays a "No results" message.
+Test Case 3: Search with Special Characters
+Objective: Verify the system's behavior when special characters are entered in the search bar.
+Preconditions: User is on the homepage.
+Steps:
+Enter special characters (e.g., "!@#$%^") in the search bar.
+Click on the search icon or press Enter.
+Expected Result: The search results page displays a "No results" message or handles special characters appropriately without errors.
+Test Case 4: Search with Empty Input
+Objective: Verify the system's behavior when the search is attempted with an empty search bar.
+Preconditions: User is on the homepage.
+Steps:
+Leave the search bar empty.
+Click on the search icon.
+Expected Result: The search action does not proceed, or a message prompts the user to enter a keyword.
+Test Case 5: Search with Minimum Character Limit
+Objective: Verify the behavior when a keyword with fewer characters than the minimum requirement is entered.
+Preconditions: User is on the homepage.
+Steps:
+Enter a single character (e.g., "a") in the search bar.
+Click on the search icon or press Enter.
+Expected Result: A message displays prompting the user to enter a longer keyword or no results are displayed.
+Test Case 6: Auto-Suggestion in Search Bar
+Objective: Verify if auto-suggestions appear as keywords are typed in the search bar.
+Preconditions: User is on the homepage.
+Steps:
+Start typing a common product keyword (e.g., "shirt") in the search bar.
+Expected Result: Auto-suggestions related to the entered keyword appear below the search bar.
+Test Case 7: Search Results Pagination
+Objective: Verify pagination functionality on the search results page.
+Preconditions: User is on the search results page with more results than can fit on a single page.
+Steps:
+Enter a common keyword with multiple results (e.g., "dress").
+Navigate through the pages of results.
+Expected Result: Pagination works correctly, showing different sets of results on each page.
+Test Case 8: Search Results Sorting
+Objective: Verify the sorting options in the search results.
+Preconditions: User is on the search results page.
+Steps:
+Search for a keyword that yields multiple results (e.g., "shirt").
+Apply different sorting options (e.g., price, relevance).
+Expected Result: Search results are correctly sorted based on the selected criteria.
+Test Case 9: Search Results Filtering
+Objective: Verify that filters (e.g., by category, size, color) work as expected on the search results page.
+Preconditions: User is on the search results page.
+Steps:
+Search for a common product (e.g., "dress").
+Apply filters on the results (e.g., select a specific color or size).
+Expected Result: Only the items matching the applied filters are displayed in the search results.
